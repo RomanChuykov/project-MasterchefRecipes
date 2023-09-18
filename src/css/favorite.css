@@ -95,7 +95,9 @@ margin-right: auto;
         margin-bottom: 32px;
     }
 }
-.fav-category{
+.fav-list-categories{display: flex;}
+.fav-category-button{
+    margin-right: 18px;
     width: 132px;
     height:46px;
     padding: 14px, 18px, 14px, 18px;
@@ -106,6 +108,10 @@ margin-right: auto;
     border: 1px solid #05050533;
 
 }
+.fav-category-button:hover,
+.fav-category-button:focus {
+    background-color: #9BB537;
+  transition: 250ms;}
 /* ============================================================ */
 /*                 recipes */
 .fav-list-recipes{
